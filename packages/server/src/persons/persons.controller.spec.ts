@@ -15,4 +15,8 @@ describe("PersonsController", () => {
 	it("should be defined", () => {
 		expect(controller).toBeDefined();
 	});
+
+	it("upload method should be truthy", () => {
+		expect(controller.upload).toBeTruthy();
+	});
 });
